@@ -13,6 +13,7 @@ axios.get(outputEndpoint)
             const date = post.date
             postOutput += `
             <div class="card">
+            <img class="img-va" src="juve.png" alt="">
             <h2>${title}</h2>
             <p>${date}</p>
         </div>`
