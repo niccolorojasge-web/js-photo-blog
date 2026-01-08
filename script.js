@@ -12,11 +12,16 @@ axios.get(outputEndpoint)
             const title = post.title
             const date = post.date
             postOutput += `
-            <div class="card">
-            <img class="img-va" src="juve.png" alt="">
-            <h2>${title}</h2>
-            <p>${date}</p>
-        </div>`
+        <figure class="card">
+            <div class="pin">
+            <img src="pin.svg" alt="">
+            </div>
+            <img class="img-va" src="jucentuss.png" alt="">
+            <figure-caption class="text">
+             <h2>${title}</h2>
+             <p>${date}</p>
+            </figure-caption>
+        </figure>`
 
 
         });

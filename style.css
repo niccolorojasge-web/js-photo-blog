@@ -13,15 +13,32 @@
 
 }
  #container{
-display: flex;
-flex-wrap: wrap;
+ display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+body{
+  background-image: url(cork.png);
 }
 .card{
-  width: calc(100% / 3);
+  width: calc(100% / 3 - (40px / 3));
   margin: 0 auto;
   justify-content: center;
-  background-image: url(cork.png);
-  height: 100vh;
-  margin-top: 0;
-  display: flex;
+  margin-top: 40px;
+  position:relative;
+}
+.img-va{
+  max-width: 100%;
+  max-height: 100%;
+}
+.text{
+  text-align: center;
+
+}
+.pin{
+  position: absolute;
+  left: 50%;
 }
