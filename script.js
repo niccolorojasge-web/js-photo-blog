@@ -14,12 +14,14 @@ axios.get(outputEndpoint)
             postOutput += `
         <figure class="card">
             <div class="pin">
-            <img src="pin.svg" alt="">
+             <img src="pin.svg" alt="">
             </div>
-            <img class="img-va" src="jucentuss.png" alt="">
+            <div class="wrap-image">
+                <img class="img-va" src="jucentuss.png" alt="">
+            </div>
             <figure-caption class="text">
-             <h2>${title}</h2>
-             <p>${date}</p>
+              <h2>${title}</h2>
+              <p>${date}</p>
             </figure-caption>
         </figure>`
 
